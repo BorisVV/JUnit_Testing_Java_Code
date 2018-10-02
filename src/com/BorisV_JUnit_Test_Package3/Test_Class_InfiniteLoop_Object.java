@@ -6,7 +6,7 @@ public class Test_Class_InfiniteLoop_Object {
 
     @Test (timeout = 1000)  //This timers(1000 ms) which is equal to one second will stop the loop.
     public void test() {
-        int one = InfiniteLoop.loop(1);
+        int one = InfiniteLoop.loop(3);
         //The assertion is not needed in this case.
     }
 }

@@ -18,7 +18,7 @@ public class Test_Class_Animal_Object {
 
     @Test
     public void shouldCreateAndGetName() {
-        String name = "Kitty";
+        String name = "Kitty"; //Having the String "Hello" in the method getName(), it doesn't pass the test.
         Animals_Examples ae = new Cat(name);
         Assert.assertTrue("REMOVE 'Hello' FROM THE getName METHOD IN ANIMALS CLASS ", ae.getName().equals(name));
         //The message is for the programmer to know where the error is happening.
